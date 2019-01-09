@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/dylan/dev/rnStart/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Unicode.cpp \
-  /Users/dylan/dev/rnStart/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Unicode.h
+  /Users/dylan/dev/rnn_tutorial/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Unicode.cpp \
+  /Users/dylan/dev/rnn_tutorial/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Unicode.h

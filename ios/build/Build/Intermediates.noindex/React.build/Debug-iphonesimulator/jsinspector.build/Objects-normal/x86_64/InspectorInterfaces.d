@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/dylan/dev/rnStart/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
-  /Users/dylan/dev/rnStart/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
+  /Users/dylan/dev/rnn_tutorial/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.cpp \
+  /Users/dylan/dev/rnn_tutorial/node_modules/react-native/ReactCommon/jsinspector/InspectorInterfaces.h
