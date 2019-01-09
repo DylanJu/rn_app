@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/dylan/dev/rnStart/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/dylan/dev/rnStart/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

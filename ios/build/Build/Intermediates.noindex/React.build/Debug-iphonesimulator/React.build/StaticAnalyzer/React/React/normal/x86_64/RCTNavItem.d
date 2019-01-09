@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Views/RCTNavItem.m \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Views/RCTNavItem.h \
+  /Users/dylan/dev/rnStart/node_modules/react-native/React/Views/RCTComponent.h
