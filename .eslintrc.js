@@ -17,7 +17,7 @@ module.exports = {
   rules: {
     "no-alert": 0,
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
-    "react/no-did-mount-set-state": [true],
+    // "react/no-did-mount-set-state": [true],
     "no-mixed-operators": [2, { allowSamePrecedence: true }],
     "jsx-a11y/anchor-is-valid": [
       "error",
