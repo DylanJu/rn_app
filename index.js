@@ -1,26 +1,19 @@
-import { Navigation } from 'react-native-navigation';
-import { registerScreens } from './src/screens';
-
-registerScreens();
-
-Navigation.events().registerAppLaunchedListener(() => {
-  Navigation.setRoot({
-    root: {
-      stack: {
-        id: 'AppStack',
-        children: [{
-          component: {
-            name: 'VerificationOne',
-            // options: {
-            //   bottomTab: {
-            //     fontSize: 12,
-            //     text: 'Sign In',
-            //     icon: require('./src/signin.png'),
-            //   },
-            // },
-          }
-        }]
-      }
-    }
-  });
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_native_navigation_1 = require("react-native-navigation");
+var screen_1 = require("src/screen");
+screen_1.registerScreens();
+react_native_navigation_1.Navigation.events().registerAppLaunchedListener(function () {
+    react_native_navigation_1.Navigation.setRoot({
+        root: {
+            stack: {
+                id: 'AppStack',
+                children: [{
+                        component: {
+                            name: 'VerificationOne',
+                        }
+                    }]
+            }
+        }
+    });
 });
