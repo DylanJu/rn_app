@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default class VerificationThree extends Component {
+import Verification from 'stack/Verification';
+
+export default class VerificationThree extends Component implements Verification {
   render() {
     return (
       <View style={styles.container}>

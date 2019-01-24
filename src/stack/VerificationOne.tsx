@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
-import { Navigation } from 'react-native-navigation'
+import { Navigation } from 'react-native-navigation';
 
-import {
-  goTwo,
-} from '../navigation';
+import Verification from 'stack/Verification';
 
-export default class VerificationOne extends Component {
+export default class VerificationOne extends Component implements Verification {
   onNextClick = () => {
-    console.log(this.props)
     Navigation.push(this.props.componentId, {
       component: {
         name: 'VerificationTwo',

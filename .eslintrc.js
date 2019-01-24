@@ -14,6 +14,12 @@ module.exports = {
 
   parser: "babel-eslint",
 
+  settings: {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+
   rules: {
     "no-alert": 0,
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],

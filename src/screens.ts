@@ -10,7 +10,7 @@ import VerificationOne from 'stack/VerificationOne';
 import VerificationTwo from 'stack/VerificationTwo';
 import VerificationThree from 'stack/VerificationThree';
 
-export function registerScreens() {
+export function registerScreens(): void {
   // Navigation.registerComponent('Home', () => Home);
   // Navigation.registerComponent('SignIn', () => SignIn);
   // Navigation.registerComponent('SignUp', () => SignUp);

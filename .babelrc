@@ -3,7 +3,7 @@
   "plugins": [
     ["module-resolver", {
       "root": ["./"],
-      "extensions": [".js", ".ts", ".tsx", ".ios.js", ".android.js"],
+      "extensions": [".js", ".ts", ".jsx", ".tsx", ".ios.js", ".android.js"],
       "alias": {
         "stack": "./src/stack"
       //   "test": "./test",
