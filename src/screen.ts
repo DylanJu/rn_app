@@ -6,9 +6,9 @@ import { Navigation } from 'react-native-navigation';
 // import Chart from './sideMenu/Chart';
 // import Order from './sideMenu/Order';
 // import History from './sideMenu/History';
-import VerificationOne from 'src/stack/VerificationOne';
-// import VerificationTwo from './stack/VerificationTwo';
-// import VerificationThree from './stack/VerificationThree';
+import VerificationOne from 'stack/VerificationOne';
+import VerificationTwo from 'stack/VerificationTwo';
+import VerificationThree from 'stack/VerificationThree';
 
 export function registerScreens() {
   // Navigation.registerComponent('Home', () => Home);
@@ -18,6 +18,6 @@ export function registerScreens() {
   // Navigation.registerComponent('Order', () => Order);
   // Navigation.registerComponent('History', () => History);
   Navigation.registerComponent('VerificationOne', () => VerificationOne);
-  // Navigation.registerComponent('VerificationTwo', () => VerificationTwo);
-  // Navigation.registerComponent('VerificationThree', () => VerificationThree);
+  Navigation.registerComponent('VerificationTwo', () => VerificationTwo);
+  Navigation.registerComponent('VerificationThree', () => VerificationThree);
 }

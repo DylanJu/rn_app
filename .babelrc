@@ -3,11 +3,12 @@
   "plugins": [
     ["module-resolver", {
       "root": ["./"],
-      "extensions": [".js", ".ts", ".tsx", ".ios.js", ".android.js"]
-      // "alias": {
+      "extensions": [".js", ".ts", ".tsx", ".ios.js", ".android.js"],
+      "alias": {
+        "stack": "./src/stack"
       //   "test": "./test",
       //   "underscore": "lodash"
-      // }
+      }
     }]
   ]
 }
