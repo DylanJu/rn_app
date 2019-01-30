@@ -1,7 +1,7 @@
 import { Navigation } from 'react-native-navigation';
 
 // import Home from './Home.js';
-// import SignIn from './SignIn';
+import SignIn from './SignIn';
 // import SignUp from './SignUp';
 // import Chart from './sideMenu/Chart';
 // import Order from './sideMenu/Order';
@@ -12,7 +12,7 @@ import VerificationThree from 'stack/VerificationThree';
 
 export function registerScreens(): void {
   // Navigation.registerComponent('Home', () => Home);
-  // Navigation.registerComponent('SignIn', () => SignIn);
+  Navigation.registerComponent('SignIn', () => SignIn);
   // Navigation.registerComponent('SignUp', () => SignUp);
   // Navigation.registerComponent('Chart', () => Chart);
   // Navigation.registerComponent('Order', () => Order);

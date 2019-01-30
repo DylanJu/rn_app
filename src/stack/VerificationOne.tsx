@@ -4,7 +4,15 @@ import { Navigation } from 'react-native-navigation';
 
 import Verification from 'stack/Verification';
 
-export default class VerificationOne extends Component implements Verification {
+interface VerificationProps {
+  componentId: string;
+}
+
+export default class VerificationOne extends Component<VerificationProps> implements Verification {
+  constructor(props: VerificationProps) {
+    super(props);
+  }
+
   onNextClick = () => {
     Navigation.push(this.props.componentId, {
       component: {
