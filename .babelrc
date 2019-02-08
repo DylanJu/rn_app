@@ -1,11 +1,14 @@
 {
-  "presets": ["module:metro-react-native-babel-preset"],
+  "presets": [
+    "module:metro-react-native-babel-preset",
+  ],
   "plugins": [
     ["module-resolver", {
       "root": ["./"],
       "extensions": [".js", ".ts", ".jsx", ".tsx", ".ios.js", ".android.js"],
       "alias": {
-        "stack": "./src/stack"
+        "stack": "./src/stack",
+        "img": "./public/img"
       //   "test": "./test",
       //   "underscore": "lodash"
       }
